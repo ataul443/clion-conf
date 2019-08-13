@@ -26,7 +26,7 @@
       <option name="cpp" value="true" />
     </context>
   </template>
-  <template name="gcd" value="int gcd(int a, int b){&#10;    if(b == 0) return a;&#10;    return gcd(b, a%b);&#10;};&#10;&#10;int lcm(int a, int b){&#10;    return a*b/(gcd(a, b));&#10;};" description="Greatest common divisor and Least common multiple" toReformat="false" toShortenFQNames="true">
+  <template name="gcd" value="template &lt;class T&gt;&#10;T gcd(T a, T b){&#10;    if(b == 0) return a;&#10;    return gcd(b, a%b);&#10;};&#10;&#10;template &lt;class T&gt;&#10;T lcm(T a, T b){&#10;    return a*b/(gcd(a, b));&#10;};&#10;" description="Greatest common divisor and Least common multiple" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="cpp" value="true" />
     </context>
